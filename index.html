@@ -1,0 +1,297 @@
+
+<!--This is my index.html inside the portafoli main root-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nahum | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-flex">
+    <div>
+      <h1 class="site-title">Nahum</h1>
+      <p class="site-subtitle">IT Student · Web · Cloud</p>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="container">
+
+  <!-- Home / Hero (no banner: clean intro block) -->
+  <section id="home" class="section">
+    <div class="card intro">
+      <div class="intro-text">
+        <h2 class="section-title">Home</h2>
+        <p class="lead">
+          Building practical projects in web development, Linux administration, networking, and cloud architecture.
+        </p>
+        <div class="pill-row" aria-label="Highlights">
+          <span class="pill">HTML/CSS</span>
+          <span class="pill">Linux</span>
+          <span class="pill">AWS</span>
+          <span class="pill">Git</span>
+          <span class="pill">Networking</span>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <figure class="intro-figure">
+        <img src="images/headshot.jpg" alt="Headshot of Nahum" />
+        <figcaption class="muted">Headshot (optional)</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Who I am</h3>
+        <p>
+          I’m an IT student focused on building clean, deployable projects and learning systems end-to-end.
+          I enjoy practical work that connects web development with Linux and cloud infrastructure.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>What I study / do</h3>
+        <ul class="list">
+          <li>Web fundamentals (semantic HTML, responsive CSS)</li>
+          <li>Linux command line, permissions, services</li>
+          <li>Networking concepts and troubleshooting</li>
+          <li>Cloud architecture patterns (AWS)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Colleges / Universities</h3>
+        <p class="muted">Coursework pages (links)</p>
+
+        <div class="edu-block">
+          <h4>Bellevue College · Winter 2026</h4>
+          <ul class="link-list">
+            <li><a href="BellevueCollege/Winter-2026/it101-intro-web-dev/">IT101 – Intro to Web Development</a></li>
+            <li><a href="BellevueCollege/Winter-2026/it223-using-and-supporting-linux/">IT223 – Using and Supporting Linux</a></li>
+            <li><a href="BellevueCollege/Winter-2026/it235-cloud-architecture-and-services/">IT235 – Cloud Architecture &amp; Services</a></li>
+          </ul>
+        </div>
+
+        <div class="edu-block">
+          <h4>North Seattle College · Winter 2026</h4>
+          <p><a href="NorthSeattleCollege/Winter-2026/">Open coursework page</a></p>
+        </div>
+
+        <div class="edu-block">
+          <h4>Seattle Central College · Winter 2026</h4>
+          <p><a href="SeattleCentralCollege/Winter-2026/">Open coursework page</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Degrees / Certificates</h3>
+        <ul class="list">
+          <li>Add your degrees here</li>
+          <li>Add certificates (if applicable)</li>
+          <li>Keep it short and clear</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Relevant Classes</h3>
+        <ul class="list">
+          <li>IT101 – Intro to Web Development</li>
+          <li>IT223 – Using and Supporting Linux</li>
+          <li>IT235 – Cloud Architecture &amp; Services</li>
+          <li>Add more classes later</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Technical</h3>
+        <ul class="list">
+          <li>HTML5 (semantic structure)</li>
+          <li>CSS3 (flexbox, responsive layout)</li>
+          <li>Git &amp; GitHub (branches, commits)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Systems</h3>
+        <ul class="list">
+          <li>Linux CLI</li>
+          <li>Permissions, users/groups</li>
+          <li>Basic services and troubleshooting</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Cloud / Networking</h3>
+        <ul class="list">
+          <li>AWS fundamentals (S3, EC2, IAM)</li>
+          <li>Networking basics (IP, DNS, DHCP)</li>
+          <li>Routing and switching fundamentals</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="grid-3">
+      <article class="card project-card">
+        <figure>
+          <img src="images/project1.jpg" alt="Screenshot of Project 1" />
+          <figcaption class="muted">Project 1</figcaption>
+        </figure>
+        <h3>Project Title 1</h3>
+        <p class="muted">Short description of what the project does.</p>
+        <p><strong>Tech:</strong> HTML, CSS</p>
+        <a class="text-link" href="#" aria-label="Open Project 1 link">Project link (add)</a>
+      </article>
+
+      <article class="card project-card">
+        <figure>
+          <img src="images/project2.jpg" alt="Diagram or screenshot of Project 2" />
+          <figcaption class="muted">Project 2</figcaption>
+        </figure>
+        <h3>Project Title 2</h3>
+        <p class="muted">Short description of what the project does.</p>
+        <p><strong>Tech:</strong> Linux, Git</p>
+        <a class="text-link" href="#" aria-label="Open Project 2 link">Project link (add)</a>
+      </article>
+
+      <article class="card project-card">
+        <figure>
+          <img src="images/project3.jpg" alt="Diagram or screenshot of Project 3" />
+          <figcaption class="muted">Project 3</figcaption>
+        </figure>
+        <h3>Project Title 3</h3>
+        <p class="muted">Short description of what the project does.</p>
+        <p><strong>Tech:</strong> AWS, Networking</p>
+        <a class="text-link" href="#" aria-label="Open Project 3 link">Project link (add)</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Work</h3>
+        <ul class="list">
+          <li>Add job title + company</li>
+          <li>Add 2–3 bullet achievements</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Volunteering</h3>
+        <ul class="list">
+          <li>Add volunteering role</li>
+          <li>Add what you did and impact</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="section">
+    <h2 class="section-title">Certifications</h2>
+    <div class="card">
+      <ul class="list">
+        <li>AWS (add certification name if you have it)</li>
+        <li>Cisco (add certification name if you have it)</li>
+        <li>Google (add certification name if you have it)</li>
+      </ul>
+      <p class="muted">Optional section — keep it accurate and updated.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Reach me</h3>
+        <ul class="list">
+          <li><strong>Email:</strong> yourname@email.com</li>
+          <li><strong>GitHub:</strong> <a href="#" class="text-link">Add your GitHub profile link</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#" class="text-link">Optional LinkedIn link</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Quick message</h3>
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Write your message..."></textarea>
+          </label>
+
+          <button class="btn" type="submit">Send</button>
+          <p class="muted small">Form won’t send on GitHub Pages unless you connect a service. Optional.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-flex">
+    <p>&copy; 2026 Nahum. All rights reserved.</p>
+    <a class="text-link" href="#home">Back to top</a>
+  </div>
+</footer>
+
+</body>
+</html>
